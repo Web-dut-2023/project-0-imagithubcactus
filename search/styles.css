@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.search-bar {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.search-button, .advanced-button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-button:hover, .advanced-button:hover {
+    background-color: #357ae8;
+}
+
+.page-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.page-link2 {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    text-decoration: none;
+    color: #4285f4;
+}
+
+
+.feeling-lucky {
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.input-field {
+    text-align: left;
+    margin: 10px;
+}
+
+.advanced-options {
+    text-align: left;
+}
